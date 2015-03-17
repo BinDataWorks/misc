@@ -44,11 +44,11 @@ Assign the value of mdat to samplem2:
 
 As in the case of Example 1 above, the initial call to getinverse function should return a NULL value:
 
-      samplem2$getinverse()  should return null
+      samplem2$getinverse()
 
 Calling cacheSolve should now return the un-cached inverse of mdat:
 
-      cacheSolve(samplem2)  should return un-cached inverse of mdat
+      cacheSolve(samplem2)
 
 
 <i>(From BinDataWorks for R Programming -- Programming Assignment #2, March 2015)</i>
